@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+
+    overflow: hidden;
+
+}
+.choice:hover{
+    box-shadow: 10px 20px 50px black;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+
+}
+.choices{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.score{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.user-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+.comp-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+.msg-container{
+    margin-top: 40px;
+}
+.winner-msg{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #000;
+    color: white;
+    width: 100px;
+    display: inline;
+    border-radius: 4px;
+    
+}
+.reset-btn{
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
